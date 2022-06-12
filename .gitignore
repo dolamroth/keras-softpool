@@ -1,0 +1,6 @@
+*.pyc
+
+.python-version
+.idea/
+.env
+venv/
