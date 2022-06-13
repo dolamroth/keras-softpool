@@ -2,12 +2,13 @@ import tensorflow.keras.backend as K
 from tensorflow.keras import layers
 
 
-def LSEPooling2D(
+def LogAvgExpPool2D(
     pool_size=(2, 2),
     data_format=None,
     r=1.0,
 ):
     # TODO: enable passing "strides" and "padding"
+    # TODO: enable passing layers, that have WxH not evenly divided by pool_size/strides
     """
     A drop-in replacement for AveragePooling2D or MaxPooling2D.
     Soft approximation to maximum via Log-Sum-Exp.
