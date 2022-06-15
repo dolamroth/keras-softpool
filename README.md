@@ -3,8 +3,8 @@
 This repository provides self-written implementations of soft-maximum pooling and global pooling.
 The following poolings are implemented:
 
-- LogAvgExpPool2D
-- GlobalLogAvgExpPool2D
+- LogAvgExpPooling2D
+- GlobalLogAvgExpPooling2D
 
 Original papers:
 
